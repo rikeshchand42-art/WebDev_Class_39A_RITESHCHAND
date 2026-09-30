@@ -1,0 +1,69 @@
+:root{
+    --primary:red;
+}
+p{
+    color: var(--primary);
+
+}
+p:not(.nehh){
+    font-size: 20px;
+}
+.para-one{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+#para-id{
+    color:blueviolet;
+}
+nav a{ color:aqua;
+text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+a{
+    hover{
+        color:blue;
+    }
+}
+
+ul>li{
+    color:blueviolet;
+}
+input[type="email"]{
+    color:blue;
+}   
+input:focus{
+    background-color:red;
+    border: 2px solid red;
+}
+.cards{
+    margin: 10px;
+    border: 2px solid red;
+    border-radius: 15px;
+    border-style: dotted;
+    padding: 15px;
+    width: fit-content;
+    height: fit-content;
+    margin:0 auto;
+}
+li:nth-child(odd){
+    color:blue;
+
+}
+.a{
+
+   display: none;
+   background-color: red;
+}
+rel{
+    border: 2px solid red;
+    position: relative;
+}
+.close{
+    position:absolute;
+    top: 0;
+    right: 0;
+}

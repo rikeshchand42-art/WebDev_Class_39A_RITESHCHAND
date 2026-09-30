@@ -1,0 +1,171 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align:center;
+}
+nav{
+    display:flex;
+    justify-content:center;
+    gap: 40px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 18px;
+    color:#173B57   ;
+}
+header{
+    background-color:#B8E0ED;
+    padding: 10px;
+}
+body{
+    background-color:#F5F9FC;
+
+}
+.Introduction-text{
+    text-align:justify;
+   
+}
+h3{
+    text-align:left;
+    font-weight:bold;
+}
+
+h4{
+    text-align:center;
+    font-weight:bold;
+}
+figure{
+    text-align:center;
+
+}
+img{
+    border-radius: 15px;
+   
+}
+
+figurecaption{
+    margin-top: 8px;
+    font-weight: bold;
+}
+li:nth-child(odd){
+    font-weight: 300;
+}
+li:nth-child(even){
+    font-weight: 700;
+}
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #173B57;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color:#173B57;
+    color: white;
+}
+ol {
+    width: 80%;
+    margin: 20px auto;
+    padding-left: 0;
+    list-style-position: inside;
+    text-align: center;
+}
+.projects {
+    width: 80%;
+    margin: 20px auto;
+    padding: 0;
+    list-style: none;
+}
+
+.projects li {
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+ul {
+    width: 80%;
+    margin: 20px auto;
+    padding-left: 0;
+    list-style-position: inside;
+    text-align: center;
+}
+.youtube-video {
+    display: block;
+    width: 80%;
+    max-width: 800px;
+    height: 450px;
+    margin: 20px auto;
+}
+
+form {
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+form input,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    background-color: #173B57;
+}
+
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    table {
+        width: 95%;
+    }
+
+    .projects {
+        width: 95%;
+    }
+
+    .youtube-video {
+        width: 95%;
+        height: 250px;
+    }
+
+    form {
+        width: 90%;
+        box-sizing: border-box;
+    }
+}

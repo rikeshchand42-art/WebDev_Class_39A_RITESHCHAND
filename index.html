@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment portfolio</title>
+
 </head>
+<link rel="stylesheet" href="style.css">
 <body>
+    <header>
     <h1> Theodore Lindsey Templeton Jr.</h1>
     <h2> Chief Executive Officer (CEO)</h2>
    <nav>
-    <header>
-    <a href="introduction.html">introudction</a>
-    <a href="experience.html">experience</a>
-    <a href="skill.html">skills</a>
-    <a href="projects.html">projects</a>
-    <a href="http://youtube.com" target="_blank"rel="noopener noreferrer">youtube link</a>
+  
+    <a href="Introduction.html">Introduction</a>
+    <a href="Experience.html">Experience</a>
+    <a href="Skills.html">Skills</a>
+    <a href="Projects.html">Projects</a>
+    <a href="http://youtube.com" target="_blank"rel="noopener noreferrer">YouTube link</a>
    </nav>
-   <h1> Introduction</h1>
+   </header>
+   <h3> Introduction</h3>
    <p>
         <b>Theodore Lindsey "Ted" "TJ" Templeton Jr.</b>, also known as
         <mark>The Boss Baby</mark>, BB, Double B, or Beebs, is the main
@@ -36,7 +40,7 @@
         Example of superscript: 2<sup>3</sup> = 8
     </p>
 
-    <h1> Image</h1>
+    <h4> Image</h4>
     <figure>
         <img src="babyboss.jpg" alt="The Boss Baby" width="300">
         <figcaption><b>I'm pretty!</b></figcaption>
@@ -84,5 +88,29 @@
     src="https://www.youtube.com/embed/rxkB20Tpvx0" frameborder="0">
         </iframe>
         
+       <h1>Contact Form</h1>
+
+<form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone">
+
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select>
+
+    <label for="role">Role:</label>
+    <input type="text" id="role" name="role">
+
+    <button type="submit">Submit</button>
+</form> 
 </body>
 </html>
